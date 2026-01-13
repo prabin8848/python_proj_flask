@@ -11,3 +11,7 @@ def index():
 @app.route("/about")
 def about():
     return 'I am Prabin.Welcome to my class'
+
+@app.route("/contact")
+def contact():
+    return "Email: prabinraytharu811@gmail.com"
